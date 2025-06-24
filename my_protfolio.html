@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foysal Ahmed Pranto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #0d0d0d;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .navbar {
+      background-color: #1a1a1a;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar h2 {
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .navbar ul {
+      display: flex;
+      list-style: none;
+      gap: 25px;
+    }
+
+    .navbar ul li a {
+      font-size: 16px;
+      color: #ccc;
+      transition: color 0.3s;
+    }
+
+    .navbar ul li a:hover {
+      color: #00ff88;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 20px;
+      gap: 80px;
+      background-color: #0d0d0d;
+    }
+
+    .hero .left {
+      max-width: 600px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      color: #bbbbbb;
+      margin-bottom: 30px;
+    }
+
+    .hero .btn {
+      background-color: #3adb40;
+      color: #fff;
+      border: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      box-shadow: 0 0 20px #3adb40;
+      transition: background 0.3s;
+    }
+
+    .hero .btn:hover {
+      background-color: #2aa92f;
+    }
+
+    .hero img {
+      width: 260px;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 6px solid #3adb40;
+      box-shadow: 0 0 30px rgba(0,255,136,0.3);
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 17px;
+      color: #aaa;
+    }
+
+    .skills .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 30px;
+    }
+
+    .skills .skill-item {
+      background: #1f1f1f;
+      color: #00ff88;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      border: 1px solid #00ff88;
+    }
+
+    .contact-info {
+      max-width: 600px;
+      margin: auto;
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    .contact-info p {
+      margin-bottom: 12px;
+    }
+
+    .contact-info i {
+      margin-right: 10px;
+      color: #00ff88;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <h2>Tonmoy Krishna Debnath </h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about me">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact">projects</a></li>
+    </ul>
+  </div>
+
+  <section id="home" class="hero">
+    <div class="left">
+      <h1>Hi, I'm  Tonmoy Krishna Debnath</h1>
+      <p>Web Developer | AI Developer | Businessman | Researcher</p>
+      <button class="btn">Let's get started →</button>
+    </div>
+    <img src="tonmoy.jpg" alt="Tonmoy Krishna Debnath">
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am currently studying Software Engineering at Daffodil International University and have a deep passion for building smart, scalable applications — from cross-platform mobile apps to intelligent AI systems. Alongside my technical journey as a web and Flutter developer, I also run KD Travels Agency, where I focus on delivering seamless and personalized travel experiences. With a blend of innovation, entrepreneurship, and problem-solving, I aim to create real-world solutions that make a difference.</p>
+  </section>
+
+  <section id="skills" class="section skills">
+    <h2>My Skills</h2>
+    <div class="skill-list">
+      <div class="skill-item">HTML</div>
+      <div class="skill-item">CSS</div>
+      <div class="skill-item">JavaScript</div>
+      <div class="skill-item">Business Analysis</div>
+      <div class="skill-item"></div>
+      <div class="skill-item">Python</div>
+      <div class="skill-item">React</div>
+      <div class="skill-item">Node.js</div>
+      <div class="skill-item">Research Writing</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out through any of the platforms below.</p>
+  <div class="contact-info">
+  <p><i class="fas fa-envelope"></i>Email: <a href="#">example@email.com</a></p>
+  <p><i class="fas fa-phone-alt"></i>Phone: <a href="#">+1234567890</a></p>
+  <p><i class="fas fa-map-marker-alt"></i>Address: City, Country</p>
+  <p><i class="fab fa-facebook"></i>Facebook: <a href="#" target="_blank">facebook.com/yourprofile</a></p>
+  <p><i class="fab fa-github"></i>GitHub: <a href="#" target="_blank">github.com/yourusername</a></p>
+  <p><i class="fab fa-linkedin"></i>LinkedIn: <a href="#" target="_blank">linkedin.com/in/yourname</a></p>
+</div>
+
+      
+  </section>
+</body>
+</html>
